@@ -8,8 +8,7 @@
     <tr>
       <th scope="col">id</th>
       <th scope="col">Genero</th>
-      <th scope="col">Editar</th>
-      <th scope="col">Borrar</th>
+      <th scope="col">Editar</th>git 
       <th scope="col">Borrar2</th>
     </tr>
   </thead>
@@ -19,7 +18,6 @@
       <th scope="row">{{$detail->user_id}}</th>
       <td>{{$detail->genero}}</td>
       <td><a href="/index/{{$detail->id}}"> editar</a></td>
-      <td><a href="/home/delete/{{$detail->id}}"> Borrar</a></td>
       <td><a href="/delete/{{ $detail->id }}">Delete</a></td>
     </tr>
     @endforeach	
